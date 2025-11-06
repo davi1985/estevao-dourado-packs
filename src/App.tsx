@@ -10,12 +10,13 @@ import {
   Sparkles,
   Zap,
 } from "lucide-react";
-import { FaInstagram, FaTiktok, FaYoutube } from "react-icons/fa";
-
 import avatar from "./assets/avatar.jpeg";
 import g1four from "./assets/g1x4.png";
 import g3x from "./assets/g3x.png";
 import g5n from "./assets/g5n.jpg";
+import youtubeIcon from "./assets/youtube.svg";
+import instagramIcon from "./assets/instagram.svg";
+import tiktokIcon from "./assets/tiktok.svg";
 
 const App = () => {
   const whatsappNumber = "557499147163";
@@ -149,9 +150,7 @@ const App = () => {
                   rel="noopener noreferrer"
                   className="flex h-24 flex-col items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-red-600 to-orange-600 px-6 py-3 font-bold text-white transition-all hover:scale-105 hover:from-red-700 hover:to-orange-700"
                 >
-                  <span className="h-5 w-5">
-                    <FaYoutube className="h-5 w-5" />
-                  </span>
+                  <img src={youtubeIcon} alt="YouTube" className="h-5 w-5" />
                   YouTube
                 </a>
                 <a
@@ -160,9 +159,11 @@ const App = () => {
                   rel="noopener noreferrer"
                   className="flex h-24 flex-col items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-pink-600 to-purple-600 px-6 py-3 font-bold text-white transition-all hover:scale-105 hover:from-pink-700 hover:to-purple-700"
                 >
-                  <span className="h-5 w-5">
-                    <FaInstagram className="h-5 w-5" />
-                  </span>
+                  <img
+                    src={instagramIcon}
+                    alt="Instagram"
+                    className="h-5 w-5"
+                  />
                   Instagram
                 </a>
                 <a
@@ -171,9 +172,7 @@ const App = () => {
                   rel="noopener noreferrer"
                   className="flex h-24 flex-col items-center justify-center gap-2 rounded-lg bg-gradient-to-r from-purple-600 to-pink-600 px-6 py-3 font-bold text-white transition-all hover:scale-105 hover:from-purple-700 hover:to-pink-700"
                 >
-                  <span className="h-5 w-5">
-                    <FaTiktok className="h-5 w-5" />
-                  </span>
+                  <img src={tiktokIcon} alt="TikTok" className="h-5 w-5" />
                   TikTok
                 </a>
               </div>

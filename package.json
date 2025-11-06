@@ -10,7 +10,6 @@
     "lucide-react": "^0.552.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
-    "react-icons": "^5.5.0",
     "vitawind": "^2.0.0"
   },
   "devDependencies": {
